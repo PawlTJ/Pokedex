@@ -79,3 +79,118 @@ body {
     background-color: #f0f0f0;
   }
   
+  .pokedex {
+    width: 300px;
+    height: 500px;
+    background-color: red;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.top-section {
+    flex: 2;
+    position: relative;
+}
+
+.screen {
+    width: 80%;
+    height: 50%;
+    background-color: black;
+    border-radius: 5px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.screen-content {
+    color: limegreen;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    text-align: left;
+}
+
+.light {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.bottom-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.dpad {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dpad-up, .dpad-down, .dpad-left, .dpad-right {
+    width: 20px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+}
+
+.dpad-up {
+    top: 0;
+}
+
+.dpad-down {
+    bottom: 0;
+}
+
+.dpad-left {
+    left: 0;
+    width: 50px;
+    height: 20px;
+}
+
+.dpad-right {
+    right: 0;
+    width: 50px;
+    height: 20px;
+}
